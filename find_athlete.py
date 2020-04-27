@@ -28,7 +28,7 @@ def find_athelete(user_id, session):
 
         text_for_user = f'|  {user.first_name} {user.last_name} c индификатором - {user.id}, {user.birthdate} года рождения, c ростом {user.height} м.  |'
         text_for_athelete_birthdate = f'|  По дате рождения: {closest_by_birthdate.name} {closest_by_birthdate.birthdate} года рождения.  |'
-        text_for_athelete_height = f'|  По весу: {closest_by_height.name}, c ростом {closest_by_height.height} м.  |'
+        text_for_athelete_height = f'|  По росту: {closest_by_height.name}, c ростом {closest_by_height.height} м.  |'
 
         print('\nДля пользователя:')
         print('-' * len(text_for_user))
